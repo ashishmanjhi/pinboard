@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class AddAttachmentImageToPins < ActiveRecord::Migration[6.0]
   def self.up
     change_table :pins do |t|
